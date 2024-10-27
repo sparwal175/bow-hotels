@@ -722,9 +722,9 @@ button {
      transition: ease-in all 0.5s;
      background-color: #000;
      color: #fff;
+     font-weight: bold;
      padding: 13px 0px;
      margin: 0 auto;
-     max-width: 200px;
      width: 100%;
      display: block;
      margin-top: 30px;
@@ -732,9 +732,9 @@ button {
 }
 
 .main_form .send_btn:hover {
-     background-color: #265FB5;
+     background-color: #fff;
      transition: ease-in all 0.5s;
-     color: #fff;
+     color: #265FB5;
 }
 
 #request *::placeholder {
