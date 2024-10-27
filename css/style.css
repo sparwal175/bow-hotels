@@ -598,24 +598,19 @@ button {
 /** testimonial section **/
 
 .testimonial {
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
      padding-top: 50px;
      padding-bottom: 113px;
+     background: #e1e1e1;
 }
 
 .testimonial .titlepage h2 {
-     color: #fff;
+     color: #313131;
+     text-align: center;
 }
 
 .testimonial_Carousel .carousel-caption {
      position: inherit;
      padding: 0;
-}
-
-.testimonial_box {
-     text-align: center;
 }
 
 .test_box {
