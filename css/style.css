@@ -327,6 +327,18 @@ button {
      background-size: 100% 100%;
 }
 
+.rooms_bg {
+     background: url(../images/rooms_bg.png);
+}
+
+.about_bg {
+     background: url(../images/about_bg.png);
+}
+
+.contact_bg {
+     background: url(../images/contact_bg.png);
+}
+
 .text-bg {
      text-align: center;
      padding-bottom: 50px;
