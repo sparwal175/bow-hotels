@@ -22,7 +22,8 @@ pipeline {
                     s3Upload(
                         pathStyleAccessEnabled: true, 
                         payloadSigningEnabled: true, 
-                        file: '*.*', 
+                        workingDir: '.', // Upload from current workspace
+                        includePathPattern: '**', // Upload all files and subdirectories
                         bucket: 'group2-jenkins-s3'
                     )   
                 } 
